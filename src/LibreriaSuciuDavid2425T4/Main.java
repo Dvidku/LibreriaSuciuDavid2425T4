@@ -5,7 +5,7 @@
 package LibreriaSuciuDavid2425T4;
 /**
  *
- * @author leonor
+ * @author david
  */
 public class Main {
     /**
@@ -34,6 +34,11 @@ public class Main {
         añadeIngresoSuciuDavid2425T4(miLibreriaSuciuDavid2425T4, "Libro Vendido");
     }
 
+    /**
+     * Método para añadir un ingreso al saldo de la librería 
+     * @param miLibreriaSuciuDavid2425T4 
+     * @param concepto Concepto del ingreso
+     */
     private static void añadeIngresoSuciuDavid2425T4(miLibreriaSuciuDavid2425T4 miLibreriaSuciuDavid2425T4, String concepto) {
         double ingreso;
         double saldoActual;
@@ -48,6 +53,11 @@ public class Main {
             System.out.println("Fallo al obtener el saldo al ingresar");
         }
     }
+    
+    /**
+     * Método para comparar un libro y actualizar el saldo y stock
+     * @param miLibreriaSuciuDavid2425T4 
+     */
 
     private static void compraQuijoteSuciuDavid2425T4(miLibreriaSuciuDavid2425T4 miLibreriaSuciuDavid2425T4) {
         String x;
